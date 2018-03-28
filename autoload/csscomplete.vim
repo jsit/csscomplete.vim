@@ -766,7 +766,7 @@ function! csscomplete#CompleteCSS(findstart, base)
 
     endif
 
-    let values = ["charset", "page", "media", "import", "font-face", "namespace", "supports", "keyframes", "viewport", "document"]
+    let values = ["charset", "page", "media", "import", "font-face", "namespace", "supports", "keyframes", "viewport", "document", "mixin", "include", "extend", "at-root", "debug", "warn", "error", "for", "each", "while"]
 
     let entered_atrule = matchstr(line, '.*@\zs[a-zA-Z-]*$')
 
