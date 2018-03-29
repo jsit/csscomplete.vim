@@ -1,24 +1,20 @@
-CSS Omni Complete Function for CSS3
+Sass Omni Complete Function
 ===================================
 
-Update the bult-in CSS complete function to latest CSS standard.
-
-The latest stable file already in [vim repo][1], this repo will keep update for beta test.
-
-[1]:https://github.com/vim/vim/blob/master/runtime/autoload/csscomplete.vim
+Includes all of othree/csscomplete.vim, plus Sass additions.
 
 Installation
 ------------
 
 Use pathogen or vundle is recommended. Vundle:
 
-    Plugin 'othree/csscomplete.vim'
+    Plugin 'jsit/sasscomplete.vim'
 
 ### Configure
 
-Set `omnifunc` to `csscomplete#CompleteCSS`
+Set `omnifunc` to `sasscomplete#CompleteSass`
 
-    autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS noci
+    autocmd FileType css,sass,scss setlocal omnifunc=sasscomplete#CompleteSass noci
 
 License
 -------
