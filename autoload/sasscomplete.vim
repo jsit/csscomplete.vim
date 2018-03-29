@@ -766,7 +766,7 @@ function! sasscomplete#CompleteSass(findstart, base)
 
     endif
 
-    let values = ["charset", "page", "media", "import", "font-face", "namespace", "supports", "keyframes", "viewport", "document", "mixin", "include", "extend", "at-root", "debug", "warn", "error", "for", "each", "while"]
+		let values = ["charset", "page", "media", "import", "font-face", "namespace", "supports", "keyframes", "viewport", "document", "mixin", "include", "extend", "at-root", "debug", "warn", "error", "for", "each", "while", "if", "else"]
 
     let entered_atrule = matchstr(line, '.*@\zs[a-zA-Z-]*$')
 
